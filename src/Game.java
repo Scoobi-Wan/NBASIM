@@ -39,9 +39,13 @@ public class Game {
 	}
 
 		private void printFinal(Team homeTeam, Team awayTeam) {
-			System.out.println("FINAL: " + homeTeam.getName() + " " + homeStats.getScore() + " - " + 
+			System.out.print("FINAL: " + homeTeam.getName() + " " + homeStats.getScore() + " - " + 
 		awayTeam.getName() + " " + awayStats.getScore());
-		
+		if (homeStats.overtime == true) {
+			System.out.println(" (" + homeStats.overtimes +"OT)");
+		} else {
+			System.out.println();
+		}
 	}
 
 /**
@@ -99,6 +103,13 @@ public class Game {
 					teamWithBall = HomeTeam;
 			}
 				
+			}
+			if (homeStats.score == awayStats.score && possesions == 0) {
+				HomeTeam.resetRotation();
+				AwayTeam.resetRotation();
+				possesions = 24;
+				homeStats.overtime = true;
+				homeStats.overtimes++;
 			}
 			
 		}

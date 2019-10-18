@@ -15,6 +15,8 @@ import java.util.Set;
 public class GameStats {
 	Map<String, int[]> statsMap;
 	int score = 0;
+	boolean overtime = false;
+	int overtimes = 0;
 	Player[] teamRoster;
 	public GameStats(Team team) {
 		teamRoster = team.roster;
@@ -62,12 +64,16 @@ public class GameStats {
 		for(int i = 0; i < teamRoster.length; i++) {
 			String selected = teamRoster[i].asString();
 			double pts = ((statsMap.get(selected)[0] - statsMap.get(selected)[2]) * 2) + (statsMap.get(selected)[2] * 3);
-			if (selected.length() > 20) {
+			if (selected.length() > 23) {
 				toR = toR + selected + "\t" + pts + "\t" + statsMap.get(selected)[0] + "\t" + 
 						statsMap.get(selected)[1] + "\t" + statsMap.get(selected)[2] + "\t" 
 						+ statsMap.get(selected)[3] + "\t" + statsMap.get(selected)[4] + "\n";
 			} else if (selected.length() > 15 && selected.length() < 24) {
 				toR = toR + selected + "\t\t" + pts + "\t" + statsMap.get(selected)[0] + "\t" + 
+						statsMap.get(selected)[1] + "\t" + statsMap.get(selected)[2] + "\t" 
+						+ statsMap.get(selected)[3] + "\t" + statsMap.get(selected)[4] + "\n";
+			} else if (selected.length() < 8) {
+				toR = toR + selected + "\t\t\t\t" + pts + "\t" + statsMap.get(selected)[0] + "\t" + 
 						statsMap.get(selected)[1] + "\t" + statsMap.get(selected)[2] + "\t" 
 						+ statsMap.get(selected)[3] + "\t" + statsMap.get(selected)[4] + "\n";
 			}

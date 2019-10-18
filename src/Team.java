@@ -73,6 +73,11 @@ public class Team {
 
 	public void createPlayer() {
 	}
+	
+	public void resetRotation() {
+		rotation = possRotations[2];
+		n = 0;
+	}
 
 	public String getName() {
 		return teamName;
