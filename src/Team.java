@@ -10,6 +10,7 @@ public class Team {
 	int wins;
 	int losses;
 	String teamName;
+	SeasonStats sStats = new SeasonStats(this);
 	int[][][] possRotations = new int[][][] {
 			{ { 1, 2, 3, 4, 5 }, { 1, 2, 3, 4, 5 }, { 1, 2, 8, 9, 5 }, { 6, 7, 8, 9, 10 }, { 1, 2, 3, 11, 10 },
 					{ 1, 2, 3, 4, 5 }, { 1, 2, 3, 4, 5 }, { 1, 2, 8, 3, 5 }, { 7, 2, 3, 12, 10 }, { 6, 7, 8, 9, 10 },
@@ -52,6 +53,7 @@ public class Team {
 		wins = 0;
 		losses = 0;
 		rotation = possRotations[rot];
+
 	}
 
 	/**

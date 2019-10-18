@@ -12,7 +12,7 @@ class LakersSunsTest {
 		League nba1 = new League();
 		nba1.readTeamFile("/Users/paul/Desktop/paulrepos/NBASIM/TEAMSHEET - Sheet1.csv");
 		
-		nba1.newSeason("/Users/paul/Desktop/paulrepos/NBASIM/schedule.csv");
+		nba1.newSeason("/Users/paul/Desktop/paulrepos/NBASIM/scheduleFULL.csv");
 	}
 
 }

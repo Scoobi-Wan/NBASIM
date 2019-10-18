@@ -28,13 +28,22 @@ public class Game {
 		homeStats = new GameStats(HomeTeam);
 		awayStats = new GameStats(AwayTeam);
 		startGame(HomeTeam, AwayTeam);
-		printFinal(HomeTeam, AwayTeam);
-		System.out.println(HomeTeam.getName().toUpperCase());
-		String hs = homeStats.printStats();
-		System.out.println(hs);
-		System.out.println(AwayTeam.getName().toUpperCase());
-		String as = awayStats.printStats();
-		System.out.println(as);
+		//printFinal(HomeTeam, AwayTeam);
+		//System.out.println(HomeTeam.getName().toUpperCase());
+		//String hs = homeStats.printStats();
+		//System.out.println(hs);
+		//System.out.println(AwayTeam.getName().toUpperCase());
+		//String as = awayStats.printStats();
+		//System.out.println(as);
+		homeStats.updateSeasonStats();
+		awayStats.updateSeasonStats();
+		if(homeStats.score > awayStats.score) {
+			HomeTeam.wins++;
+			AwayTeam.losses++;
+		} else {
+			HomeTeam.losses++;
+			AwayTeam.wins++;
+		}
 
 	}
 
@@ -107,7 +116,7 @@ public class Game {
 			if (homeStats.score == awayStats.score && possesions == 0) {
 				HomeTeam.resetRotation();
 				AwayTeam.resetRotation();
-				possesions = 24;
+				possesions = 18;
 				homeStats.overtime = true;
 				homeStats.overtimes++;
 			}

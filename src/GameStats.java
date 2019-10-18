@@ -7,10 +7,8 @@
  */
 
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class GameStats {
 	Map<String, int[]> statsMap;
@@ -18,10 +16,11 @@ public class GameStats {
 	boolean overtime = false;
 	int overtimes = 0;
 	Player[] teamRoster;
-	public GameStats(Team team) {
-		teamRoster = team.roster;
-		
-		statsMap = new HashMap();
+	Team team;
+	public GameStats(Team t) {
+		teamRoster = t.roster;
+		team = t;
+		statsMap = new HashMap<String, int[]>();
 		for(int i = 0; i < team.rosterSize; i++) {
 			int[] dbA = new int[] {0,0,0,0,0};
 			statsMap.put(team.roster[i].asString(), dbA);
@@ -87,6 +86,20 @@ public class GameStats {
 		
 		return toR;
 	}
+	
+public void updateSeasonStats() {
+	for(int i = 0; i < 12; i++) {
+		String selected = teamRoster[i].asString();
+		team.sStats.statsMap.get(selected)[0] += statsMap.get(selected)[0];
+		team.sStats.statsMap.get(selected)[1] += statsMap.get(selected)[1];
+		team.sStats.statsMap.get(selected)[2] += statsMap.get(selected)[2];
+		team.sStats.statsMap.get(selected)[3] += statsMap.get(selected)[3];
+		team.sStats.statsMap.get(selected)[4] += statsMap.get(selected)[4];
+		team.sStats.games++;
+
+		
+	}
+}
 	
 	
 }

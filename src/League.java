@@ -12,6 +12,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 
@@ -29,6 +30,8 @@ public class League {
 	String[][] schedule;
 	@SuppressWarnings("serial")
 	Map<String, Team> teamIDs;
+	Team[] EasternConference;
+	Team[] WesternConference;
 
 	public League() throws IOException {
 
@@ -89,6 +92,15 @@ public class League {
 			System.out.println(teams[i].getName());
 		}
 	}
+	
+	
+	public void setSeasonStats() {
+		Set<String> ks = teamIDs.keySet();
+		Object[] keySetArr = ks.toArray();
+		for(int i= 0; i < 30; i++) {
+			teamIDs.get(keySetArr[i]).sStats = new SeasonStats(teamIDs.get(keySetArr[i]));
+		}
+	}
 
 	/**
 	 * 
@@ -126,6 +138,11 @@ public class League {
 		Team bucks = new Team("Milwaukee", "Bucks", "MIL", 7);
 		Team pacers = new Team("Indiana", "Pacers", "IND", 3);
 		Team pistons = new Team("Detroit", "Pistons", "$DET", 6);
+		
+		EasternConference = new Team[] {celtics, cavaliers, raptors, heat, hornets,
+				magic, knicks, nets, hawks, wizards, sixers, bulls, bucks, pacers, pistons};
+		WesternConference = new Team[] {suns, lakers, kings, warriors, jazz, clippers,
+				blazers, rockets, mavericks, spurs, pelicans, grizzlies, nuggets, timberwolves, thunder};
 
 		teamIDs = new HashMap<String, Team>() {
 			{
@@ -177,12 +194,75 @@ public class League {
 	public void newSeason(String filename) throws IOException {
 		BufferedReader csvReader = new BufferedReader(new FileReader(filename));
 		String row;
+		setSeasonStats();
 		while ((row = csvReader.readLine()) != null) {
 			String[] data = row.split(",");
 			Game currGame = new Game(teamIDs.get(data[1]), teamIDs.get(data[0]));
 
 		}
 		csvReader.close();
+		String standings = printStandings();
+		System.out.println(standings);
+	}
+	
+	public String printStandings() {
+		String toR = "STANDINGS\n\nEASTERN CONFERENCE\n\n";
+		sortConferences();
+		for(int i = 0; i < 15; i++) {
+			String seed = String.valueOf(i + 1);
+			if (EasternConference[i].teamName.length() < 5 && 
+					i < 9){
+			toR = toR + seed + ". " + EasternConference[i].teamName + "\t\t\t\t" + EasternConference[i].wins +
+					"\t\t" + EasternConference[i].losses + "\n";
+				} else {
+			toR = toR + seed + ". " + EasternConference[i].teamName + "\t\t\t" + EasternConference[i].wins +
+					"\t\t" + EasternConference[i].losses + "\n";
+				}
+			}
+		toR = toR + "\nWESTERN CONFERENCE\n\n";
+		for(int i = 0; i < 15; i++) {
+			String seed = String.valueOf(i + 1);
+			if (WesternConference[i].teamName.length() < 5 && i < 9){
+				toR = toR + seed + ". " + WesternConference[i].teamName + "\t\t\t\t" + WesternConference[i].wins +
+						"\t\t" + WesternConference[i].losses + "\n";
+					} else if (WesternConference[i].teamName.length() > 11) {
+						toR = toR + seed + ". " + WesternConference[i].teamName + "\t\t" + WesternConference[i].wins +
+								"\t\t" + WesternConference[i].losses + "\n";
+					}
+			else {
+				toR = toR + seed + ". " + WesternConference[i].teamName + "\t\t\t" + WesternConference[i].wins +
+						"\t\t" + WesternConference[i].losses + "\n";
+					}
+		}
+		return toR;
+	}
+	boolean eastSorted = false;
+	public void sortConferences() {
+		if (eastSorted == false) {
+		for(int i = 0; i < 14; i++) {
+			int j = i;
+			if(j < 14 && EasternConference[j].wins < EasternConference[j+1].wins) {
+				while(j < 14 && EasternConference[j].wins < EasternConference[j+1].wins) {
+					Team temp = EasternConference[j];
+					EasternConference[j] = EasternConference[j + 1];
+					EasternConference[j + 1] = temp;
+					j++;
+				} sortConferences();
+			}
+		} eastSorted = true;
+		}
+		
+		for(int i = 0; i < 14; i++) {
+			int j = i;
+			if(j < 14 && WesternConference[j].wins < WesternConference[j+1].wins) {
+				while(j < 14 && WesternConference[j].wins < WesternConference[j+1].wins) {
+					Team temp = WesternConference[j];
+					WesternConference[j] = WesternConference[j + 1];
+					WesternConference[j + 1] = temp;
+					j++;
+				} sortConferences();
+			}	
+		}
 	}
 
 }
