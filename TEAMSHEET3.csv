@@ -1,0 +1,390 @@
+PHX,ID - 1,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Ricky,Rubio,0.45,0.35,0.62,0.38,0.08,0.23
+,2,Devin,Booker,0.48,0.36,0.68,0.22,0.06,0.42
+,3,Kelly,Oubre Jr.,0.53,0.33,0.6,0.08,0.09,0.24
+,4,Dario,Saric,0.49,0.38,0.53,0.12,0.13,0.18
+,5,Deandre,Ayton,0.6,0.3,0.9,0.1,0.2,0.32
+,6,Ty,Jerome,0.44,0.36,0.58,0.29,0.06,0.21
+,7,Tyler,Johnson,0.44,0.34,0.55,0.19,0.07,0.17
+,8,Mikal,Bridges,0.55,0.35,0.44,0.1,0.06,0.12
+,9,Frank,Kaminsky,0.57,0.44,0.55,0.13,0.11,0.21
+,10,Aron,Baynes,0.52,0.33,0.74,0.07,0.16,0.17
+,11,Cam,Johnson,0.47,0.42,0.48,0.1,0.08,0.11
+,12,Cheick,Diallo,0.59,0.01,0.99,0.05,0.19,0.17
+LAL,ID - 2,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Rajon,Rondo,0.47,0.31,0.7,0.41,0.09,0.15
+,2,Danny,Green,0.46,0.43,0.32,0.09,0.08,0.19
+,3,LeBron,James,0.6,0.34,0.74,0.4,0.12,0.41
+,4,Anthony,Davis,0.55,0.33,0.86,0.17,0.27,0.38
+,5,Dwight,Howard,0.59,0.12,0.99,0.07,0.2,0.2
+,6,Kyle,Kuzma,0.51,0.34,0.6,0.1,0.1,0.27
+,7,Quinn,Cook,0.51,0.42,0.54,0.16,0.07,0.19
+,8,Avery,Bradley,0.5,0.37,0.61,0.2,0.06,0.18
+,9,Kentavious,Caldwell-Pope,0.52,0.35,0.44,0.08,0.06,0.18
+,10,Javale,McGee,0.64,0.07,0.98,0.05,0.18,0.2
+,11,Alex,Caruso,0.45,0.44,0.7,0.18,0.06,0.18
+,12,Troy,Daniels,0.43,0.4,0.28,0.06,0.05,0.18
+GSW,ID - 3,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Stephen,Curry,0.53,0.44,0.42,0.3,0.08,0.4
+,2,D'Angelo,Russell,0.48,0.36,0.58,0.35,0.07,0.32
+,3,Glenn,Robinson III,0.48,0.38,0.6,0.06,0.06,0.14
+,4,Draymond,Green,0.55,0.29,0.61,0.27,0.13,0.19
+,5,Willie,Cauley-Stein,0.55,0.5,0.99,0.12,0.16,0.18
+,6,Jordan,Poole,0.46,0.37,0.55,0.18,0.07,0.18
+,7,Alec,Burks,0.43,0.37,0.65,0.13,0.09,0.2
+,8,Omari,Spellman,0.47,0.35,0.48,0.08,0.13,0.15
+,9,Kevon,Looney,0.65,0.13,0.97,0.11,0.15,0.13
+,10,Jacob,Evans,0.37,0.27,0.72,0.13,0.07,0.14
+,11,Alfonzo,McKinnie,0.58,0.35,0.57,0.04,0.13,0.14
+,12,Klay,Thompson,0.52,0.42,0.57,0.11,0.06,0.3
+SAC,ID - 4,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,De'Aaron,Fox,0.46,0.37,0.78,0.33,0.06,0.32
+,2,Buddy,Hield,0.48,0.43,0.52,0.11,0.08,0.34
+,3,Harrison,Barnes,0.49,0.39,0.58,0.08,0.08,0.2
+,4,Marvin,Bagley III,0.55,0.33,0.84,0.06,0.17,0.31
+,5,Dewayne,Dedmon,0.57,0.38,0.59,0.08,0.16,0.17
+,6,Corey,Joseph,0.45,0.32,0.68,0.21,0.07,0.14
+,7,Bogdan,Bogdanovic,0.47,0.37,0.57,0.19,0.07,0.24
+,8,Trevor,Ariza,0.48,0.32,0.42,0.14,0.09,0.17
+,9,Nemanja,Bjelica,0.54,0.41,0.57,0.11,0.12,0.17
+,10,Harry,Giles,0.52,0.01,0.99,0.15,0.16,0.22
+,11,Yogi,Ferrell,0.49,0.36,0.57,0.17,0.05,0.17
+,12,Richaun,Holmes,0.61,0.12,0.9,0.08,0.15,0.18
+LAC,ID - 5,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Patrick,Beverly,0.43,0.4,0.41,0.19,0.1,0.13
+,2,Landry,Shamet,0.44,0.44,0.28,0.12,0.04,0.15
+,3,Paul,George,0.47,0.38,0.54,0.18,0.11,0.37
+,4,Kawhi,Leonard,0.54,0.37,0.73,0.16,0.12,0.41
+,5,Montrezl ,Harrell,0.63,0.17,0.98,0.12,0.13,0.23
+,6,Lou,Williams,0.45,0.35,0.73,0.34,0.06,0.32
+,7,Jerome,Robinson,0.49,0.31,0.48,0.08,0.07,0.17
+,8,Maurice,Harkless,0.57,0.33,0.69,0.07,0.1,0.14
+,9,JaMychal,Green,0.54,0.42,0.52,0.05,0.18,0.18
+,10,Ivica,Zubac ,0.54,0,1,0.1,0.2,0.2
+,11,Terrence,Mann,0.48,0.28,0.75,0.08,0.12,0.16
+,12,Mfiondu,Kabengele,0.46,0.32,0.83,0.03,0.14,0.14
+UTH,ID - 6,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Mike,Conley Jr.,0.47,0.36,0.61,0.33,0.06,0.27
+,2,Donovan,Mitchell,0.48,0.36,0.64,0.21,0.07,0.39
+,3,Bojan,Bogdanovic ,0.53,0.43,0.63,0.1,0.08,0.22
+,4,Joe,Ingles,0.53,0.43,0.38,0.26,0.07,0.22
+,5,Rudy,Gobert ,0.64,0,1,0.1,0.22,0.22
+,6,Emmanuel,Mudiay,0.49,0.32,0.72,0.24,0.06,0.26
+,7,Dante,Exum ,0.47,0.29,0.75,0.25,0.06,0.22
+,8,Royce ,O’Neale,0.55,0.38,0.49,0.1,0.1,0.12
+,9,Jeff,Green,0.57,0.36,0.56,0.09,0.1,0.2
+,10,Ed,Davis,0.6,0,1,0.06,0.25,0.12
+,11,Georges,Niang ,0.56,0.41,0.43,0.1,0.1,0.18
+,12,Tony,Bradley,0.47,0,1,0.05,0.22,0.23
+POR,ID - 7,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Damian,Lilliard,0.5,0.37,0.58,0.3,0.07,0.43
+,2,CJ,McCollum,0.5,0.38,0.65,0.15,0.06,0.35
+,3,Rodney,Hood,0.48,0.36,0.62,0.1,0.05,0.17
+,4,Jusuf,Nurkic,0.52,0.1,0.96,0.18,0.2,0.27
+,5,Hassan,Whiteside,0.58,0.12,0.97,0.06,0.26,0.25
+,6,Anfernee,Simons,0.53,0.36,0.54,0.14,0.05,0.24
+,7,Kent,Bazemore,0.47,0.32,0.56,0.15,0.08,0.23
+,8,Mario,Hezonja,0.49,0.33,0.68,0.11,0.1,0.2
+,9,Anthony,Tolliver,0.48,0.38,0.23,0.07,0.09,0.13
+,10,Zach,Collins,0.52,0.33,0.68,0.07,0.13,0.17
+,11,Skal ,Labissiere,0.58,0.37,0.89,0.11,0.15,0.17
+,12,Gary,Trent Jr.,0.39,0.25,0.57,0.06,0.05,0.22
+SAS,ID - 8,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Dejounte,Murray,0.45,0.28,0.9,0.2,0.14,0.26
+,2,Derrick,White,0.51,0.35,0.72,0.2,0.08,0.22
+,3,DeMar,Derozan,0.49,0.31,0.95,0.27,0.09,0.32
+,4,LaMarcus,Aldridge,0.52,0.27,0.95,0.13,0.14,0.24
+,5,Jakob,Poeltl,0.63,0.3,0.99,0.11,0.18,0.15
+,6,Patty,Mills,0.49,0.38,0.4,0.18,0.05,0.24
+,7,Bryn,Forbes,0.49,0.43,0.49,0.11,0.06,0.17
+,8,Demarre,Carroll,0.46,0.34,0.47,0.09,0.12,0.18
+,9,Rudy,Gay,0.52,0.38,0.76,0.13,0.14,0.23
+,10,Trey,Lyles,0.55,0.3,0.65,0.12,0.12,0.23
+,11,Lonnie,Walker IV,0.38,0.38,0.7,0.1,0.09,0.2
+,12,Marco,Bellinelli,0.5,0.37,0.42,0.1,0.04,0.2
+HOU,ID - 9,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Russell,Westbrook,0.49,0.28,0.76,0.45,0.16,0.41
+,2,James,Harden,0.53,0.37,0.47,0.4,0.09,0.47
+,3,Gerald,Green,0.56,0.35,0.26,0.04,0.07,0.2
+,4,P.J.,Tucker,0.44,0.38,0.29,0.05,0.1,0.11
+,5,Clint,Capela,0.65,0,1,0.07,0.21,0.24
+,6,Austin,Rivers,0.53,0.33,0.42,0.12,0.04,0.15
+,7,Eric,Gordon,0.52,0.37,0.37,0.12,0.04,0.21
+,8,Ben,McLemore,0.45,0.4,0.36,0.04,0.05,0.19
+,9,Thabo,Sefolosha,0.52,0.42,0.49,0.09,0.09,0.14
+,10,Tyson,Chandler,0.63,0,1,0.05,0.18,0.1
+,11,Anthony,Bennett,0.54,0.26,0.48,0.07,0.15,0.19
+,12,Gary,Clark,0.62,0.32,0.9,0.04,0.1,0.11
+DAL,ID - 10,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Delon,Wright,0.51,0.28,0.71,0.25,0.1,0.19
+,2,Luka,Doncic,0.52,0.33,0.55,0.33,0.14,0.34
+,3,Tim,Hardaway Jr.,0.5,0.33,0.49,0.12,0.06,0.23
+,4,Kristaps,Porzingis,0.46,0.38,0.73,0.07,0.11,0.31
+,5,Dwight,Powell,0.68,0.31,0.75,0.1,0.14,0.17
+,6,Jalen,Brunson,0.53,0.33,0.65,0.24,0.06,0.2
+,7,Seth,Curry,0.47,0.44,0.48,0.08,0.05,0.19
+,8,Justin,Jackson,0.53,0.36,0.54,0.08,0.07,0.16
+,9,Dorian,Finney-Smith,0.53,0.32,0.52,0.08,0.11,0.14
+,10,Maxi,Kleber,0.59,0.35,0.46,0.07,0.12,0.14
+,11,J.J.,Barea,0.48,0.34,0.63,0.47,0.07,0.27
+,12,Boban,Marjanovic,0.63,0.3,0.93,0.14,0.2,0.22
+NOP,ID - 11,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Lonzo,Ball,0.43,0.31,0.55,0.25,0.11,0.17
+,2,Jrue,Holiday,0.54,0.33,0.69,0.3,0.07,0.25
+,3,Brandon,Ingram,0.49,0.36,0.51,0.14,0.08,0.24
+,4,Zion,Williamson,0.62,0.32,0.81,0.07,0.15,0.26
+,5,Derrick,Favors,0.63,0.23,0.88,0.08,0.17,0.2
+,6,Nickeil,Alexander-Walker,0.51,0.34,0.66,0.13,0.1,0.2
+,7,JJ,Redick,0.5,0.42,0.45,0.13,0.04,0.22
+,8,E'Twaun,Moore,0.52,0.44,0.65,0.11,0.05,0.17
+,9,Nicolo,Melli,0.54,0.38,0.66,0.06,0.12,0.18
+,10,Jaxson,Hayes,0.66,0,1,0.03,0.18,0.17
+,11,Jahlil,Okafor,0.57,0.22,0.98,0.06,0.15,0.2
+,12,Josh,Hart,0.52,0.34,0.42,0.07,0.08,0.14
+MEM,ID - 12,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Ja,Morant,0.52,0.36,0.74,0.25,0.14,0.27
+,2,Dillon,Brooks,0.44,0.37,0.68,0.08,0.06,0.22
+,3,Kyle,Anderson,0.57,0.31,0.87,0.15,0.11,0.13
+,4,Jaren,Jackson Jr.,0.55,0.36,0.76,0.07,0.1,0.29
+,5,Jonas,Valanciunas,0.57,0.29,0.95,0.06,0.2,0.3
+,6,Tyus,Jones,0.47,0.33,0.72,0.27,0.05,0.15
+,7,Grayson,Allen,0.44,0.33,0.46,0.09,0.03,0.25
+,8,Jae,Crowder,0.52,0.34,0.41,0.09,0.09,0.2
+,9,Brandon,Clarke,0.65,0.29,0.9,0.06,0.16,0.18
+,10,Ivan,Rabb,0.57,0.2,0.94,0.12,0.16,0.17
+,11,De'Anthony,Melton,0.44,0.32,0.64,0.22,0.08,0.16
+,12,Josh,Jackson,0.45,0.31,0.76,0.13,0.1,0.21
+OKC,ID - 13,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Chris,Paul,0.48,0.35,0.49,0.41,0.08,0.23
+,2,Shai,Gilgeous-Alexander,0.52,0.37,0.8,0.18,0.07,0.29
+,3,Andre,Roberson,0.62,0.23,0.78,0.06,0.1,0.12
+,4,Danilo,Gallinari,0.46,0.34,0.58,0.12,0.11,0.3
+,5,Steven,Adams,0.6,0,1,0.06,0.15,0.2
+,6,Dennis,Schroeder,0.45,0.33,0.71,0.22,0.06,0.24
+,7,Hamidou,Diallo,0.51,0.18,0.86,0.05,0.1,0.16
+,8,Terrance,Ferguson,0.58,0.36,0.33,0.04,0.04,0.11
+,9,Mike,Muscala,0.56,0.36,0.32,0.07,0.1,0.14
+,10,Nerlens,Noel,0.57,0,1,0.06,0.17,0.14
+,11,Jawun,Evans,0.3,0.27,0.82,0.18,0.1,0.13
+,12,Abdel,Nader,0.49,0.34,0.55,0.06,0.09,0.16
+MIN,ID - 14,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Jeff,Teague,0.46,0.34,0.75,0.36,0.05,0.2
+,2,Andrew,Wiggins,0.45,0.34,0.72,0.11,0.07,0.24
+,3,Jarrett,Culver,0.46,0.35,0.46,0.13,0.15,0.19
+,4,Robert,Covington,0.51,0.38,0.36,0.06,0.1,0.17
+,5,Karl-Anthony,Towns,0.57,0.41,0.73,0.16,0.2,0.38
+,6,Shabazz,Napier,0.45,0.35,0.49,0.21,0.06,0.23
+,7,Josh,Okogie,0.47,0.3,0.58,0.07,0.07,0.17
+,8,Jake,Layman,0.62,0.33,0.56,0.06,0.09,0.16
+,9,Jordan,Bell,0.56,0,1,0.14,0.14,0.14
+,10,Gorgui,Dieng,0.54,0.33,0.85,0.1,0.16,0.18
+,11,Noah,Vonleh,0.52,0.32,0.7,0.11,0.18,0.15
+,12,Keita,Bates-Diop,0.53,0.28,0.65,0.05,0.08,0.15
+DEN,ID - 15,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Jamal,Murray,0.51,0.37,0.63,0.23,0.07,0.39
+,2,Gary,Harris,0.48,0.34,0.61,0.11,0.05,0.25
+,3,Torrey,Craig,0.56,0.33,0.48,0.1,0.06,0.12
+,4,Paul,Millsap,0.52,0.35,0.75,0.12,0.14,0.2
+,5,Nikola,Jokic,0.55,0.34,0.75,0.38,0.28,0.4
+,6,Monte,Morris,0.52,0.41,0.66,0.23,0.05,0.17
+,7,Malik,Beasley,0.54,0.41,0.46,0.08,0.06,0.19
+,8,Will,Barton,0.46,0.35,0.59,0.16,0.09,0.2
+,9,Jerami,Grant,0.57,0.38,0.66,0.04,0.08,0.15
+,10,Mason,Plumlee,0.6,0.2,0.97,0.19,0.16,0.16
+,11,Michael,Porter Jr.,0.48,0.38,0.64,0.14,0.1,0.18
+,12,Bol,Bol,0.52,0.4,0.83,0.03,0.11,0.16
+BOS,ID - 16,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Kemba,Walker,0.48,0.36,0.56,0.29,0.07,0.39
+,2,Marcus,Smart,0.5,0.36,0.4,0.2,0.07,0.16
+,3,Jayson,Tatum,0.49,0.37,0.7,0.1,0.1,0.26
+,4,Gordon,Hayward,0.52,0.35,0.47,0.18,0.08,0.19
+,5,Enes,Kanter,0.58,0.25,0.94,0.1,0.2,0.23
+,6,Carsen,Edwards,0.43,0.35,0.64,0.12,0.07,0.17
+,7,Romeo,Langford,0.51,0.25,0.87,0.07,0.14,0.16
+,8,Jaylen,Brown,0.52,0.37,0.65,0.08,0.09,0.25
+,9,Grant,Williams,0.5,0.32,0.82,0.09,0.18,0.18
+,10,Daniel,Theis,0.6,0.37,0.75,0.1,0.15,0.16
+,11,Robert,Williams III,0.68,0,1,0.04,0.15,0.11
+,12,Tacko,Fall,0.61,0.05,0.99,0.05,0.17,0.12
+BKN,ID - 17,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Kyrie,Irvig,0.53,0.4,0.64,0.35,0.08,0.35
+,2,Joe,Harris,0.53,0.46,0.47,0.12,0.07,0.17
+,3,Caris,LeVert,0.5,0.33,0.68,0.23,0.08,0.23
+,4,Taurean,Prince,0.47,0.39,0.48,0.11,0.07,0.2
+,5,Jarrett,Allen,0.62,0.22,0.95,0.08,0.18,0.16
+,6,Spencer,Dinwiddie,0.5,0.34,0.58,0.27,0.06,0.24
+,7,Garrett,Temple,0.52,0.33,0.5,0.11,0.06,0.12
+,8,Wilson,Chandler,0.42,0.36,0.42,0.06,0.1,0.13
+,9,Rodions,Kurucs,0.53,0.32,0.6,0.06,0.1,0.17
+,10,DeAndre,Jordan,0.64,0,1,0.15,0.2,0.17
+,11,Kevin,Durant,0.58,0.37,0.71,0.25,0.11,0.29
+,12,Jaylen,Hands,0.42,0.36,0.65,0.15,0.06,0.17
+NYK,ID - 18,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Dennis,Smith Jr.,0.47,0.29,0.72,0.31,0.05,0.31
+,2,RJ,Barrett,0.49,0.28,0.55,0.12,0.14,0.22
+,3,Kevin,Knox,0.38,0.34,0.6,0.06,0.09,0.22
+,4,Julius,Randle,0.56,0.33,0.82,0.16,0.15,0.28
+,5,Mitchell,Robinson,0.69,0,1,0.04,0.17,0.13
+,6,Elfrid,Payton,0.47,0.32,0.76,0.33,0.09,0.18
+,7,Reggie,Bullock,0.52,0.35,0.35,0.06,0.06,0.14
+,8,Marcus,Morris,0.5,0.37,0.54,0.08,0.1,0.21
+,9,Taj,Gibson,0.58,0.32,0.93,0.07,0.15,0.17
+,10,Bobby,Portis,0.47,0.4,0.66,0.09,0.17,0.23
+,11,Kadeem,Allen,0.47,0.45,0.74,0.27,0.06,0.19
+,12,Allonzo,Trier,0.46,0.39,0.74,0.13,0.07,0.22
+PHI,ID - 19,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Ben,Simmons,0.55,0,1,0.34,0.13,0.34
+,2,Josh,Richardson,0.46,0.35,0.57,0.18,0.06,0.2
+,3,Tobias,Harris,0.53,0.34,0.67,0.12,0.12,0.22
+,4,Al,Horford,0.6,0.36,0.73,0.22,0.12,0.19
+,5,Joel,Embiid,0.54,0.3,0.79,0.19,0.22,0.38
+,6,Shake,Milton,0.47,0.31,0.5,0.09,0.07,0.15
+,7,Zhaire,Smith,0.46,0.36,0.5,0.13,0.07,0.17
+,8,James,Ennis III,0.55,0.33,0.59,0.07,0.13,0.16
+,9,Mike,Scott,0.39,0.42,0.39,0.09,0.09,0.18
+,10,Jonah,Bolden,0.66,0.35,0.41,0.08,0.14,0.14
+,11,Trey,Burke,0.49,0.36,0.62,0.24,0.05,0.23
+,12,Matisse,Thybulle,0.44,0.33,0.44,0.06,0.1,0.16
+TOR,ID - 20,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Kyle,Lowry,0.5,0.38,0.39,0.35,0.08,0.3
+,2,Fred,VanVleet,0.44,0.38,0.51,0.24,0.06,0.26
+,3,OG,Anunoby,0.58,0.35,0.51,0.05,0.08,0.16
+,4,Pascal,Siakam,0.61,0.37,0.77,0.15,0.12,0.31
+,5,Marc,Gasol,0.48,0.43,0.71,0.22,0.14,0.22
+,6,Norman,Powell,0.54,0.4,0.58,0.12,0.07,0.2
+,7,Cameron,Payne,0.58,0.35,0.58,0.2,0.06,0.18
+,8,Stanley,Johnson,0.48,0.32,0.62,0.14,0.09,0.2
+,9,Rondae,Hollis-Jefferson,0.44,0.25,0.9,0.12,0.13,0.21
+,10,Serge,Ibaka,0.58,0.31,0.8,0.07,0.17,0.22
+,11,Patrick,McCaw,0.49,0.33,0.55,0.1,0.07,0.1
+,12,Chris,Boucher,0.55,0.32,0.53,0.02,0.18,0.22
+CHI,ID - 21,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Tomas,Satoransky,0.52,0.4,0.7,0.25,0.07,0.14
+,2,Zach,LaVine,0.51,0.37,0.7,0.22,0.07,0.37
+,3,Otto,Porter Jr.,0.49,0.47,0.6,0.13,0.09,0.21
+,4,Lauri,Markkanen,0.49,0.37,0.58,0.07,0.15,0.25
+,5,Wendell,Carter Jr.,0.51,0.18,0.92,0.11,0.16,0.24
+,6,Kris,Dunn,0.45,0.35,0.8,0.3,0.08,0.2
+,7,Denzel,Valentine,0.46,0.37,0.5,0.18,0.11,0.18
+,8,Chandler,Hutchinson,0.75,0.24,0.77,0.05,0.11,0.12
+,9,Thaddeus,Young,0.55,0.34,0.81,0.12,0.11,0.17
+,10,Daniel,Gafford,0.56,0,1,0.06,0.18,0.14
+,11,Coby,White,0.46,0.3,0.73,0.12,0.11,0.18
+,12,Luke,Kornet,0.43,0.36,0.33,0.1,0.1,0.18
+CLE,ID - 22,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Darius,Garland,0.48,0.38,0.44,0.2,0.06,0.26
+,2,Collin,Sexton,0.45,0.41,0.75,0.15,0.05,0.33
+,3,Cedi,Osman,0.5,0.35,0.55,0.12,0.08,0.18
+,4,Kevin,Love,0.47,0.38,0.53,0.13,0.22,0.26
+,5,Tristan,Thompson,0.53,0,1,0.11,0.2,0.18
+,6,Jordan,Clarkson,0.51,0.34,0.62,0.16,0.07,0.28
+,7,Brandon,Knight,0.45,0.36,0.52,0.15,0.08,0.19
+,8,Dylan,Windler,0.53,0.41,0.5,0.08,0.14,0.18
+,9,Larry,Nance Jr.,0.57,0.32,0.8,0.17,0.18,0.16
+,10,Ante,Zizic,0.56,0,1,0.07,0.16,0.18
+,11,John,Henson,0.56,0.35,0.54,0.1,0.2,0.18
+,12,Kevin,Porter Jr.,0.44,0.36,0.56,0.07,0.08,0.16
+DET,ID - 23,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Reggie,Jackson,0.47,0.37,0.58,0.25,0.06,0.25
+,2,Bruce,Brown,0.46,0.28,0.7,0.09,0.07,0.13
+,3,Tony,Snell,0.51,0.4,0.42,0.07,0.06,0.13
+,4,Blake,Griffin,0.61,0.36,0.63,0.27,0.12,0.32
+,5,Andre,Drummond,0.54,0.12,0.95,0.07,0.25,0.25
+,6,Derrick,Rose,0.49,0.36,0.8,0.26,0.05,0.27
+,7,Luke,Kennard,0.47,0.4,0.49,0.12,0.07,0.18
+,8,Joe,Johnson,0.48,0.29,0.64,0.1,0.08,0.16
+,9,Markieff,Morris,0.44,0.33,0.62,0.07,0.12,0.19
+,10,Thon,Maker,0.45,0.3,0.44,0.07,0.11,0.14
+,11,Langston,Galloway,0.45,0.35,0.35,0.07,0.06,0.16
+,12,Sekou,Doumbouya,0.57,0.33,0.5,0.05,0.08,0.15
+IND,ID - 24,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Malcolm,Brogdon,0.54,0.43,0.68,0.17,0.08,0.26
+,2,Victor,Oladipo,0.49,0.35,0.64,0.25,0.1,0.34
+,3,T.J.,Warren,0.52,0.41,0.7,0.07,0.07,0.23
+,4,Domantas,Sabonis,0.58,0.47,0.98,0.18,0.21,0.24
+,5,Myles,Turner,0.52,0.39,0.75,0.08,0.14,0.2
+,6,Aaron,Holiday,0.47,0.35,0.53,0.2,0.06,0.22
+,7,Jeremy,Lamb,0.5,0.34,0.67,0.12,0.1,0.23
+,8,T.J.,McConnell,0.53,0.37,0.88,0.25,0.07,0.15
+,9,T.J.,Leaf,0.6,0.28,0.83,0.07,0.13,0.17
+,10,Goga,Bitadze,0.53,0.3,0.87,0.04,0.07,0.14
+,11,Doug,McDermott,0.54,0.42,0.52,0.07,0.05,0.16
+,12,Edmond,Sumner,0.43,0.29,0.6,0.07,0.06,0.17
+MIL,ID - 25,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Eric,Bledsoe,0.57,0.33,0.62,0.27,0.08,0.29
+,2,Wesley,Matthews,0.43,0.35,0.44,0.11,0.05,0.16
+,3,Khris,Middleton,0.5,0.38,0.59,0.21,0.1,0.27
+,4,Giannis,Antetekounmpo,0.64,0.27,0.85,0.3,0.2,0.42
+,5,Brook,Lopez,0.56,0.37,0.36,0.07,0.09,0.22
+,6,George,Hill,0.54,0.32,0.56,0.14,0.06,0.15
+,7,Pat,Connaughton,0.63,0.35,0.44,0.12,0.14,0.14
+,8,Sterling,Brown,0.48,0.36,0.54,0.1,0.1,0.15
+,9,Ersan,Ilyasova,0.49,0.36,0.59,0.06,0.13,0.17
+,10,Robin,Lopez,0.57,0.23,0.95,0.09,0.1,0.19
+,11,Donte,DiVincenzo,0.66,0.27,0.33,0.1,0.09,0.17
+,12,Kyle,Korver,0.45,0.42,0.29,0.09,0.07,0.19
+ATL,ID - 26,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Trae,Young,0.47,0.33,0.62,0.4,0.05,0.32
+,2,Kevin,Huerter,0.47,0.37,0.45,0.15,0.1,0.15
+,3,De'Andre,Hunter,0.54,0.37,0.75,0.07,0.14,0.17
+,4,John,Collins,0.61,0.35,0.82,0.12,0.18,0.28
+,5,Alex,Len,0.56,0.36,0.69,0.09,0.15,0.21
+,6,Evan,Turner,0.49,0.28,0.87,0.23,0.11,0.16
+,7,Cam,Reddish,0.42,0.32,0.76,0.06,0.1,0.17
+,8,DeAndre,Bembry,0.49,0.3,0.73,0.15,0.1,0.18
+,9,Jabari,Parker,0.6,0.3,0.73,0.16,0.14,0.24
+,10,Damian,Jones,0.7,0,1,0.1,0.1,0.12
+,11,Allen,Crabbe,0.35,0.38,0.32,0.07,0.07,0.18
+,12,Chandler,Parsons,0.47,0.34,0.47,0.15,0.08,0.22
+CHA,ID - 27,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Terry,Rozier,0.42,0.35,0.5,0.17,0.1,0.2
+,2,Dwayne,Bacon,0.5,0.42,0.63,0.09,0.06,0.18
+,3,Nicolas,Batum,0.5,0.37,0.45,0.15,0.09,0.13
+,4,Miles,Bridges,0.56,0.34,0.64,0.08,0.12,0.17
+,5,Cody,Zeller,0.56,0.32,0.94,0.12,0.15,0.16
+,6,Devonte,Graham,0.44,0.3,0.46,0.26,0.05,0.18
+,7,Malik,Monk,0.48,0.34,0.45,0.14,0.06,0.25
+,8,Marvin,Williams,0.51,0.38,0.42,0.06,0.11,0.15
+,9,Michael,Kidd-Gilchrist,0.5,0.33,0.84,0.07,0.12,0.16
+,10,Bismack,Biyombo,0.56,0,1,0.06,0.18,0.13
+,11,Willy,Hernangomez,0.52,0.39,0.88,0.12,0.21,0.22
+,12,Kobi,Simmons,0.46,0.3,0.8,0.16,0.05,0.18
+MIA,ID - 28,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Goran,Dragic,0.46,0.35,0.64,0.27,0.06,0.25
+,2,Tyler,Herro,0.48,0.33,0.56,0.08,0.12,0.22
+,3,Jimmy,Butler,0.5,0.34,0.81,0.18,0.08,0.33
+,4,Justise,Winslow,0.46,0.36,0.63,0.22,0.1,0.21
+,5,Bam,Adebayo,0.58,0.22,0.97,0.15,0.17,0.16
+,6,Kendrick,Nunn,0.44,0.36,0.44,0.09,0.09,0.17
+,7,Dion,Waiters,0.47,0.37,0.4,0.18,0.05,0.22
+,8,Derrick,Jones Jr.,0.55,0.3,0.7,0.05,0.12,0.16
+,9,James,Johnson,0.5,0.33,0.62,0.17,0.1,0.18
+,10,Kelly,Olynyk,0.6,0.36,0.45,0.11,0.11,0.19
+,11,Meyers,Leonard,0.63,0.44,0.55,0.12,0.15,0.15
+,12,Duncan,Robinson,0.68,0.29,0.29,0.04,0.06,0.15
+ORL,ID - 29,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,D.J.,Augustin,0.51,0.42,0.55,0.26,0.05,0.18
+,2,Evan,Fournier,0.51,0.35,0.59,0.18,0.06,0.22
+,3,Jonathan,Isaac,0.51,0.34,0.59,0.06,0.12,0.17
+,4,Aaron,Gordon,0.5,0.35,0.65,0.17,0.18,0.26
+,5,Nikola,Vucevic,0.54,0.35,0.84,0.22,0.21,0.33
+,6,Michael,Carter-Williams,0.42,0.26,0.7,0.29,0.14,0.16
+,7,Terrence,Ross,0.49,0.37,0.43,0.1,0.07,0.24
+,8,Al-Farouq,Aminu,0.5,0.35,0.54,0.14,0.15,0.14
+,9,Khem,Birch,0.59,0,1,0.09,0.16,0.15
+,10,Mo,Bamba,0.57,0.31,0.72,0.07,0.17,0.19
+,11,Markelle,Fultz,0.45,0.3,0.92,0.22,0.09,0.2
+,12,Wes,Iwundu,0.44,0.37,0.72,0.08,0.08,0.13
+WAS,ID - 30,First,Last,2pt Scoring,3pt Scoring,2pt vs 3pt,assist,rebound,usage
+,1,Ish,Smith,0.47,0.35,0.76,0.25,0.06,0.2
+,2,Bradley,Beal,0.54,0.36,0.64,0.24,0.07,0.34
+,3,CJ,Miles,0.45,0.37,0.37,0.07,0.06,0.19
+,4,Rui,Hachimura,0.6,0.37,0.9,0.05,0.16,0.18
+,5,Thomas,Bryant,0.66,0.32,0.77,0.1,0.16,0.22
+,6,Isaiah,Thomas,0.44,0.32,0.57,0.24,0.04,0.3
+,7,Jordan,McRae,0.52,0.32,0.75,0.13,0.07,0.21
+,8,Troy,Brown Jr.,0.46,0.33,0.72,0.15,0.12,0.18
+,9,Davis,Bertans,0.53,0.43,0.27,0.08,0.09,0.14
+,10,Ian,Mahinmi,0.52,0.17,0.87,0.06,0.14,0.13
+,11,Isaac,Bonga,0.37,0.2,0.8,0.13,0.11,0.16
+,12,Justin,Robinson,0.48,0.37,0.5,0.08,0.05,0.15

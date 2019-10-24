@@ -11,6 +11,8 @@ public class SeasonStats {
 	double fgPer;
 	double fg3Per;
 	Team t1;
+	int totalPTS = 0;
+	double teampPPG;
 	
 	
 	public SeasonStats(Team team) {
@@ -31,9 +33,11 @@ public class SeasonStats {
 		DecimalFormat df = new DecimalFormat("#.#");
 		String ppgStr = df.format(ppg);
 		ppg = Double.valueOf(ppgStr);
+		p.ppg = ppg;
 		rpg = (float) 10* statsMap.get(p.asString())[4] / games;
 		String rpgStr = df.format(rpg);
 		rpg = Double.valueOf(rpgStr);
+		p.rpg = rpg;
 		df = new DecimalFormat("#.##");
 		if(statsMap.get(p.asString())[1] != 0) {
 		fgPer = (float) statsMap.get(p.asString())[0] / statsMap.get(p.asString())[1];
@@ -80,7 +84,13 @@ public class SeasonStats {
 		return top;
 
 	}
+	
+	public String LeagueLeadersPoints(int n) {
+		// n is used to print the top N PPG leaders
+		return "nothun";
+	}
 		
+	
 	
 }
 

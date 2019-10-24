@@ -32,6 +32,7 @@ public class League {
 	Map<String, Team> teamIDs;
 	Team[] EasternConference;
 	Team[] WesternConference;
+	LeagueStats leagueStats1;
 
 	public League() throws IOException {
 
@@ -71,6 +72,7 @@ public class League {
 			String[] data = row.split(",");
 			if ((data[0].isEmpty())) {
 				Player currPlayer = new Player(data);
+				currPlayer.team = currKey;
 				teamIDs.get(currKey).addPlayerToTeam(currPlayer);
 			} else {
 				if (teamIDs.containsKey(data[0])) {
@@ -143,7 +145,17 @@ public class League {
 				magic, knicks, nets, hawks, wizards, sixers, bulls, bucks, pacers, pistons};
 		WesternConference = new Team[] {suns, lakers, kings, warriors, jazz, clippers,
 				blazers, rockets, mavericks, spurs, pelicans, grizzlies, nuggets, timberwolves, thunder};
-
+		teams = new Team[] {celtics, cavaliers, raptors, heat, hornets,
+				magic, knicks, nets, hawks, wizards, sixers, bulls, bucks, pacers, pistons, 
+				suns, lakers, kings, warriors, jazz, clippers,
+				blazers, rockets, mavericks, spurs, pelicans, grizzlies, nuggets, timberwolves, thunder};
+		
+		for (int i = 0; i < 15; i++) {
+			EasternConference[i].conference = 'E';
+			WesternConference[i].conference = 'W';
+		}
+		
+		
 		teamIDs = new HashMap<String, Team>() {
 			{
 				put("PHX", suns);
@@ -178,7 +190,7 @@ public class League {
 				put("WAS", wizards);
 			}
 		};
-		readTeamFile("/Users/paul/Desktop/paulrepos/NBASIM/TEAMSHEET - Sheet1.csv");
+		readTeamFile("/Users/paul/Desktop/paulrepos/NBASIM/TEAMSHEET5.csv");
 	}
 
 	/**
@@ -200,9 +212,17 @@ public class League {
 			Game currGame = new Game(teamIDs.get(data[1]), teamIDs.get(data[0]));
 
 		}
+		leagueStats1 = new LeagueStats(teams);
 		csvReader.close();
-		String standings = printStandings();
-		System.out.println(standings);
+		//String standings = printStandings();
+		//System.out.println(standings);
+		//String top20PPG = leagueStats1.ppgLeaders(20);
+		//System.out.println(top20PPG);
+	}
+	
+	public void setTeamsArray() {
+		Set<String> keySet1 = teamIDs.keySet();
+		
 	}
 	
 	public String printStandings() {
@@ -262,6 +282,14 @@ public class League {
 					j++;
 				} sortConferences();
 			}	
+		}
+	}
+	
+	public void printTeamPPG() {
+		for(int i = 0; i < 30; i++) {
+			double ppg = (double)teams[i].sStats.totalPTS / 82;
+			teams[i].sStats.teampPPG = ppg;
+			System.out.println(teams[i].teamName + "\t" + ppg);
 		}
 	}
 

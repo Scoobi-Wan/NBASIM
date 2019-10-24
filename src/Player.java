@@ -17,6 +17,7 @@ public class Player {
 
 	String firstName;
 	String lastName;
+	String team;
 	int playerID;
 	double usage;
 	double twoPtVsThreePt;
@@ -24,6 +25,10 @@ public class Player {
 	double twoPt;
 	double rebound;
 	double assist;
+	double ppg;
+	double rpg; 
+	double simPPGTotal;
+	
 
 	public Player(String[] playerData) {
 		playerID = Integer.valueOf(playerData[1]);

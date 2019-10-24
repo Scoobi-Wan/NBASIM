@@ -12,7 +12,7 @@ import java.util.Arrays;
  * at the completion of the game.
  */
 public class Game {
-	int possesions = 210; //Chosen as NBA avg is usually ~105/team
+	int possesions = 220; //Chosen as NBA avg is usually ~110/team
 	Team teamWithBall;
 	int homeScore = 0;
 	int awayScore = 0;
@@ -44,7 +44,8 @@ public class Game {
 			HomeTeam.losses++;
 			AwayTeam.wins++;
 		}
-
+		HomeTeam.sStats.totalPTS += homeStats.score;
+		AwayTeam.sStats.totalPTS += awayStats.score;
 	}
 
 		private void printFinal(Team homeTeam, Team awayTeam) {
@@ -66,7 +67,7 @@ public class Game {
  */
 		public void startGame(Team HomeTeam, Team AwayTeam) {
 		while (possesions > 0) {
-			if (possSinceSub == 19) {
+			if (possSinceSub == 20) {
 				AwayTeam.subIn();
 				HomeTeam.subIn();
 				possSinceSub = 1;
