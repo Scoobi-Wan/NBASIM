@@ -190,7 +190,7 @@ public class League {
 				put("WAS", wizards);
 			}
 		};
-		readTeamFile("/Users/paul/Desktop/paulrepos/NBASIM/TEAMSHEET5.csv");
+		readTeamFile("/Users/paul/NBASIM/NBASIM/TEAMSHEET2 - Sheet1-2.csv");
 	}
 
 	/**

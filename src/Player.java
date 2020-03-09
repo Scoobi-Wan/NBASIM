@@ -28,6 +28,8 @@ public class Player {
 	double ppg;
 	double rpg; 
 	double simPPGTotal;
+	double ftRate;
+	double ftPercent;
 	
 
 	public Player(String[] playerData) {
@@ -40,6 +42,9 @@ public class Player {
 		assist = Double.valueOf(playerData[7]);
 		rebound = Double.valueOf(playerData[8]);
 		usage = Double.valueOf(playerData[9]);
+		ftRate = Double.valueOf(playerData[10]);
+		ftPercent = Double.valueOf(playerData[11]);
+		
 	}
 
 	/**

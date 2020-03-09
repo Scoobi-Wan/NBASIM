@@ -13,7 +13,7 @@ public class LeagueSimSet {
 		int i = 0;
 		while(i < n) {
 			League l1 = new League();
-			l1.newSeason("/Users/paul/Desktop/paulrepos/NBASIM/scheduleFULL.csv");
+			l1.newSeason("/Users/paul/NBASIM/NBASIM/scheduleFULL.csv");
 			sims[i] = l1;
 			i++;
 		}
