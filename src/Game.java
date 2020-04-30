@@ -12,7 +12,7 @@ import java.util.Arrays;
  * at the completion of the game.
  */
 public class Game {
-	int possesions = 210; //Chosen as NBA avg is usually ~90/team
+	int possesions = 200; //Chosen as NBA avg is usually ~90/team
 	Team teamWithBall;
 	int homeScore = 0;
 	int awayScore = 0;
